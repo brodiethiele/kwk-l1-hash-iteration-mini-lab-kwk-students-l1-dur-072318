@@ -28,7 +28,7 @@ def iterate_through_keys
   cities_array=[]
   summer_olympics.each_key |key|
     cities_array.push(key.upcase)
-    end
+  
   puts cities_array
   return cities_array
 end
